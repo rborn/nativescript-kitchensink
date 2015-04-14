@@ -1,0 +1,33 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+	<TabView>
+		<TabView.items>
+			<TabEntry title="Layout">
+				<TabEntry.view>
+					<ListView id="layoutList" items="{{ layoutItems }}" itemTap="listViewItemTap">
+						<ListView.itemTemplate>
+							<Label text="{{ title }}" cssClass="title"/>
+						</ListView.itemTemplate>
+					</ListView>
+				</TabEntry.view>
+			</TabEntry>
+			<TabEntry title="Widgets">
+				<TabEntry.view>
+					<ListView id="widgetList" items="{{ widgetItems }}" itemTap="listViewItemTap">
+						<ListView.itemTemplate>
+							<Label text="{{ title }}" cssClass="title"/>
+						</ListView.itemTemplate>
+					</ListView>
+				</TabEntry.view>
+			</TabEntry>
+			<TabEntry title="Platform">
+				<TabEntry.view>
+					<ListView id="platformList" items="{{ platformItems }}" itemTap="listViewItemTap">
+						<ListView.itemTemplate>
+							<Label text="{{ title }}" cssClass="title"/>
+						</ListView.itemTemplate>
+					</ListView>
+				</TabEntry.view>
+			</TabEntry>
+		</TabView.items>
+	</TabView>
+</Page>
