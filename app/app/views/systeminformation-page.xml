@@ -1,2 +1,12 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+	<StackLayout>
+		<Label text="{{ 'Device model: ' + deviceModel }}" cssClass="title"/>
+		<Label text="{{ 'Device type: ' + deviceType }}" cssClass="title"/>
+		<Label text="{{ 'OS: ' + deviceOS }}" cssClass="title"/>
+		<Label text="{{ 'OS version: ' + osVersion }}" cssClass="title"/>
+		<Label text="{{ 'SDK Version: ' + sdkVersion }}" cssClass="title"/>
+		<Label text="{{ 'Screen width: ' + screenWidth }}" cssClass="title"/>
+		<Label text="{{ 'Screen height: ' + screenHeight }}" cssClass="title"/>
+		<Label text="{{ 'Screen scale: ' + screenScale }}" cssClass="title"/>
+	</StackLayout>
 </Page>
