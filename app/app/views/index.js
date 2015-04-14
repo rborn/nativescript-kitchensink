@@ -60,6 +60,8 @@ var platformItems = [{
 }, {
     title: "File System"
 }, {
+    title: "Application Settings"
+}, {
     title: "System Information"
 }];
 
