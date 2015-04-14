@@ -4,4 +4,6 @@ Wanted an extremely simple overview of what NativeScript could do without the co
 
 This is a TabView based application, with features and functions segmented out into categories.  Each tab has a list view of these features that when tapped will open a new Page with examples of that particular feature.
 
-Pull requests are welcomed.  The naming stucture for the example Pages is explained in the comments in index.js
+Pull requests are welcomed.  The naming stucture for the example Pages is explained in the comments in index.js. Placeholder files have been placed in the views/ directory so the app won't crash if an uncompleted page is tapped.
+
+
