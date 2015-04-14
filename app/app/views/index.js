@@ -29,6 +29,8 @@ var widgetItems = [{
 }, {
     title: "TextField"
 }, {
+    title: "TextView"
+}, {
     title: "SearchBar"
 }, {
     title: "Switch"
