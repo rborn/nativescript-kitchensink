@@ -20,3 +20,8 @@ Button {
     color: #284848;
     horizontal-align: center;
 }
+
+
+Page {
+    background-color: white;
+}

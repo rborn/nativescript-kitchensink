@@ -1,10 +1,8 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
 	<StackLayout>
-	<Button id="button1" text="I am a Button"/>
-	<Button id="button2" text="I am a Button">
-		<Label id="button2Label" text="Custom Label"/>
-	</Button>
-	<Button id="button3" text="Click Me"/>
-
+		<Button id="simpleButton" text="Simple Button"/>
+		<Button id="cssStyledButton" text="Css Styled Button"/>
+		<Button id="jsStyledButton" text="JS Styled Button"/>
+		<Button id="tapButton"/>
 	</StackLayout>
 </Page>

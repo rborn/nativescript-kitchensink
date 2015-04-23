@@ -1,3 +1,15 @@
-#button2 {
-	background-color: black
+Button {
+	margin: 20 20 20 20;
+}
+
+Page {
+	background-color: orange;
+}
+
+#cssStyledButton {
+	color: white;
+	background-color: navy;
+	width: 200;
+	height: 50;
+	opacity: 0.5;
 }
