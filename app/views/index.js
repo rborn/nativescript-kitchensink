@@ -82,7 +82,7 @@ function listViewItemTap(args) {
     // in a proper app you would use the index to key into your array, 
     // but alas, we are cheating to use a single event listener here (not best practice, demo only)
     // take the lowercase of our label text, prepend location of our views, append -page
-    var targetView = "app/views/" + args.view.text.toLowerCase() + "-page";
+    var targetView = "views/" + args.view.text.toLowerCase() + "-page";
     // strip out spaces if ther are any
     targetView = targetView.replace(/\s+/g, '');
     console.log(targetView);

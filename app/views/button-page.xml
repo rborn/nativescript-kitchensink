@@ -1,0 +1,10 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd">
+	<StackLayout>
+	<Button id="button1" text="I am a Button"/>
+	<Button id="button2" text="I am a Button">
+		<Label id="button2Label" text="Custom Label"/>
+	</Button>
+	<Button id="button3" text="Click Me"/>
+
+	</StackLayout>
+</Page>

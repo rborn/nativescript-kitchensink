@@ -1,12 +1,18 @@
+Page 
+{
+    background-color:#FFFFFF;
+}
+
 .title {
     font-size: 30;
     horizontal-align: center;
     margin:20;
 }
 
-button {
+Button {
     font-size: 16;
     horizontal-align: center;
+    /*color: black;*/
 }
 
 .message {
