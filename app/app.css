@@ -2,25 +2,19 @@ Page {
     background-color: #FFFFFF;
 }
 
-.title {
-    font-size: 30;
-    horizontal-align: center;
-    margin:20;
-}
-
 Button {
     font-size: 16;
     horizontal-align: center;
-    /*color: black;*/
+}
+
+.title {
+    font-size: 14;
+    horizontal-align: left;
+    margin:20;
 }
 
 .message {
     font-size: 20;
     color: #284848;
     horizontal-align: center;
-}
-
-
-Page {
-    background-color: white;
 }

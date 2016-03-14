@@ -2,10 +2,7 @@ TabView {
     background-color: white;
 }
 
-Page {
-    background-color: white;
-}
 
-.title {
-	font-size: 14;
+ActionBar {
+	color: #007aff;
 }
