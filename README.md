@@ -10,6 +10,7 @@ Pull requests are welcomed.  The naming stucture for the example Pages is explai
 #### Prepare the project
 Assuming you have NativeScript CLI installed, clone the repo and run
 
+	npm install tns-core-modules
 	tns platform add ios
 	tns platform add android
 
