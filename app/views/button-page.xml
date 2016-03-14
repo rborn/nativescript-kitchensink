@@ -1,4 +1,10 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+<?xml version="1.0"?>
+<Page loaded="pageLoaded" title="Buttons">
+	<Page.actionBar>
+		<ActionBar title="Buttons">
+			<NavigationButton android.systemIcon="ic_ab_back_holo_light" tap="goBack"/>
+		</ActionBar>
+	</Page.actionBar>
 	<StackLayout>
 		<Button id="simpleButton" text="Simple Button"/>
 		<Button id="cssStyledButton" text="Css Styled Button"/>

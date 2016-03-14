@@ -1,6 +1,6 @@
 var frameModule = require("ui/frame");
 var view = require("ui/core/view");
-
+var topmost = frameModule.topmost();
 
 function onTap(args){
 	var btn = args.object;
@@ -21,4 +21,9 @@ function pageLoaded(args) {
 
 }
 
+function goBack() {
+	topmost.goBack();
+}
+
 exports.pageLoaded = pageLoaded;
+exports.goBack = goBack;
