@@ -1,5 +1,4 @@
-var view = require("ui/core/view");
-var frames = require("ui/frame");
+var frame = require("ui/frame");
 
 var observableModule = require("data/observable");
 var source = new observableModule.Observable();
@@ -79,15 +78,15 @@ exports.pageLoaded = pageLoaded;
 
 // event handler for our listviews
 function listViewItemTap(args) {
-    // in a proper app you would use the index to key into your array, 
+    // in a proper app you would use the index to key into your array,
     // but alas, we are cheating to use a single event listener here (not best practice, demo only)
     // take the lowercase of our label text, prepend location of our views, append -page
     var targetView = "views/" + args.view.text.toLowerCase() + "-page";
     // strip out spaces if ther are any
     targetView = targetView.replace(/\s+/g, '');
     console.log(targetView);
-    // open the view 
-    frames.topmost().navigate({
+    // open the view
+    frame.topmost().navigate({
         moduleName: targetView
     });
 

@@ -1,0 +1,11 @@
+{
+	"nativescript": {
+		"id": "com.stephenfeather.testing.nativescriptkitchensink",
+		"tns-ios": {
+			"version": "1.6.0"
+		},
+		"tns-android": {
+			"version": "1.6.3"
+		}
+	}
+}

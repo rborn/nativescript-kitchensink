@@ -1,33 +1,37 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+<?xml version="1.0" encoding="UTF-8" ?>
+<Page loaded="pageLoaded">
+    <Page.actionBar>
+        <ActionBar title="{N} KitchenSink"/>
+    </Page.actionBar>
 	<TabView>
 		<TabView.items>
-			<TabEntry title="Layout">
-				<TabEntry.view>
+			<TabViewItem title="Layout">
+				<TabViewItem.view>
 					<ListView id="layoutList" items="{{ layoutItems }}" itemTap="listViewItemTap">
 						<ListView.itemTemplate>
 							<Label text="{{ title }}" cssClass="title"/>
 						</ListView.itemTemplate>
 					</ListView>
-				</TabEntry.view>
-			</TabEntry>
-			<TabEntry title="Widgets">
-				<TabEntry.view>
+				</TabViewItem.view>
+			</TabViewItem>
+			<TabViewItem title="Widgets">
+				<TabViewItem.view>
 					<ListView id="widgetList" items="{{ widgetItems }}" itemTap="listViewItemTap">
 						<ListView.itemTemplate>
 							<Label text="{{ title }}" cssClass="title"/>
 						</ListView.itemTemplate>
 					</ListView>
-				</TabEntry.view>
-			</TabEntry>
-			<TabEntry title="Platform">
-				<TabEntry.view>
+				</TabViewItem.view>
+			</TabViewItem>
+			<TabViewItem title="Platform">
+				<TabViewItem.view>
 					<ListView id="platformList" items="{{ platformItems }}" itemTap="listViewItemTap">
 						<ListView.itemTemplate>
 							<Label text="{{ title }}" cssClass="title"/>
 						</ListView.itemTemplate>
 					</ListView>
-				</TabEntry.view>
-			</TabEntry>
+				</TabViewItem.view>
+			</TabViewItem>
 		</TabView.items>
 	</TabView>
 </Page>
